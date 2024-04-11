@@ -1,146 +1,76 @@
 
-    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down.css');
 
 
-     body{
-        background-color: rgb(255, 208, 208);
-     }
-    .mainlg{
-      width: 50%;
-    }
-      .logo img{
-        width: 100px;
-padding: 17px;
-margin: -23px -72px;
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Slabo+13px&display=swap');
+/* *{
+ margin: 0;
+ padding: 0;
+} */
 
-      }
-      nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: rgb(199, 154, 154);
-      }
-      .right ul{
-        display: flex;
-        gap: 300px;
-      }
-      .right ul li{
-        list-style: none;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        font-size: px;
-      }
-      .right ul li:hover{
-        color: rgb(159, 159, 192);
-      }
-      .first{
-        display: flex;
-        /* background-color: aqua; */
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 42px;
-margin: 34px;
-      }
-
-      .first span{
-        font-size: 40px;
-      }
-      .sec{
-        font-size: 20px;
-text-align: center;
-      }
-
-      button{
-        background: aqua;
-border: none;
-margin: 5px 5px;
-padding: 13px 9px;
-color: black;
-border-radius: 6px;
-font-weight: 700;
-cursor: pointer;
-      }
-
-      .item{
-        background-color: rgb(255, 255, 255);
-padding: 32px;
-margin: 20px 40px;
-/* align-content: center; */ 
-text-align: center;
-      }
-      .btn-blue{
-        background-color: aqua;
-        border: none;
-        margin: 2px;
-      }
-      .btn-Green{
-        background-color: rgba(23, 20, 23, 0.11);
-        border: none;
-        margin: 2px;
-      }
-      .os{
-        padding-bottom: 50px;
-      }
-
-      .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+ body{
+     background-color: gray;
+     padding: 18px 127px;
+     
+     display: flex;
+ }
+ .card{
+     background-color: white;
+     height: 600px;
+     width: 390px;
+     border-radius: 10px;
+     margin: 5px;
+ }
+ .image{
+     padding: 23px;
     
-      }
-.detail{
- 
-font-family: 'Geogtqrg';
-line-height: 1.6;
-font-size: 1.15rem;
-margin: 0 0 1.5rem;
-}
-      .owner{
+ }
+ .image img{
+     border-radius: 20px;
+ }
+ .capsule{
+     text-align: center;
 
+ }
+ .capsule span{
+     padding: 2px 10px 2px 11px;
+     border: 1px solid black;
+     border-radius: 20px;
+     font-family: "Slabo 13px", serif;
+     
+    
+ }
+ .content{
+     padding: 0px 18px;
+     font-family: "Slabo 13px", serif;
+    
+     
+ }
+     
 
-line-height: 1.6;
-font-size: 1.15rem;
-color: #101612;
-margin-bottom: 2rem;
-      }
-      .US{
-        font-family: Marker Felt;
-font-size: 24px;
-background: rgb(237, 235, 255);
-margin-left: 68px;
-      }
-      .USDe{
- 
-          text-align: center;
-          font-family: Apple Chancery;
-          font-size: 20px;
-        
-      }
-      @media screen and(max-width<=1000px) 
-      {
-        .grid{
-            display: grid;
-             grid-template-columns:1fr;
-             padding: 10px 433px
-        }
-}
-  
+ .content p{
+     font-size: 17px;
+     font-family: "Slabo 13px", serif;
+     color: gray;
+   
+ }
+ .btn{
+     text-align: center;
+    
+     
+ }
+ .btn button{
+     font-size: 15px;
+     border-radius: 5px;
+     background-color: rgb(170, 230, 255);
+     color: rgb(0, 106, 155);
+     border: none;
+     padding: 5px 11px 4px 14px;
+     font-weight: bold;
+     
+     
+ }
 
-h2.block-title {
-    color: #000000;
-    margin-left: 47%;
-    margin-top: -61px;
-    }
-
-    .frame{
-        /* display: inline-block;
-margin: 35px 50px 151px -100px;
-width: 200px; */
-margin: 20px -235px 100px -97px;
-width: 10%;
-    }
-
-    .photos{
-        display: flex;
-    }
+ .btn button:hover{
+     background-color: rgb(199, 234, 242);
+     color: rgb(0, 106, 155);
+ }
