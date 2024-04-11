@@ -1,0 +1,146 @@
+
+    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down.css');
+
+
+     body{
+        background-color: rgb(255, 208, 208);
+     }
+    .mainlg{
+      width: 50%;
+    }
+      .logo img{
+        width: 100px;
+padding: 17px;
+margin: -23px -72px;
+
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(199, 154, 154);
+      }
+      .right ul{
+        display: flex;
+        gap: 300px;
+      }
+      .right ul li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: px;
+      }
+      .right ul li:hover{
+        color: rgb(159, 159, 192);
+      }
+      .first{
+        display: flex;
+        /* background-color: aqua; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+margin: 34px;
+      }
+
+      .first span{
+        font-size: 40px;
+      }
+      .sec{
+        font-size: 20px;
+text-align: center;
+      }
+
+      button{
+        background: aqua;
+border: none;
+margin: 5px 5px;
+padding: 13px 9px;
+color: black;
+border-radius: 6px;
+font-weight: 700;
+cursor: pointer;
+      }
+
+      .item{
+        background-color: rgb(255, 255, 255);
+padding: 32px;
+margin: 20px 40px;
+/* align-content: center; */ 
+text-align: center;
+      }
+      .btn-blue{
+        background-color: aqua;
+        border: none;
+        margin: 2px;
+      }
+      .btn-Green{
+        background-color: rgba(23, 20, 23, 0.11);
+        border: none;
+        margin: 2px;
+      }
+      .os{
+        padding-bottom: 50px;
+      }
+
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+      }
+.detail{
+ 
+font-family: 'Geogtqrg';
+line-height: 1.6;
+font-size: 1.15rem;
+margin: 0 0 1.5rem;
+}
+      .owner{
+
+
+line-height: 1.6;
+font-size: 1.15rem;
+color: #101612;
+margin-bottom: 2rem;
+      }
+      .US{
+        font-family: Marker Felt;
+font-size: 24px;
+background: rgb(237, 235, 255);
+margin-left: 68px;
+      }
+      .USDe{
+ 
+          text-align: center;
+          font-family: Apple Chancery;
+          font-size: 20px;
+        
+      }
+      @media screen and(max-width<=1000px) 
+      {
+        .grid{
+            display: grid;
+             grid-template-columns:1fr;
+             padding: 10px 433px
+        }
+}
+  
+
+h2.block-title {
+    color: #000000;
+    margin-left: 47%;
+    margin-top: -61px;
+    }
+
+    .frame{
+        /* display: inline-block;
+margin: 35px 50px 151px -100px;
+width: 200px; */
+margin: 20px -235px 100px -97px;
+width: 10%;
+    }
+
+    .photos{
+        display: flex;
+    }
